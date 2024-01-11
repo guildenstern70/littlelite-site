@@ -50,18 +50,36 @@
 </div>
 <div class="row pt-5 mt-5">
   <div class="col"></div>
-  <div class="col"><a href="/" class="shift btn btn-outline-secondary">Home</a></div>
+  <div class="col"><a href="/" class="backhome btn btn-outline-secondary">Home</a></div>
   <div class="col"></div>
 </div>
   
 <style>
-.shift {
-  margin-left: 140px;
+
+.backhome {
+  width: 200px;
+  margin-bottom: 50px;
 }
 
 .llcard {
-  width: 22rem;
-  height: 500px
+  width: 20rem;
+  height: 480px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .backhome {
+    margin-left: 100px;
+    width: 200px;
+    margin-bottom: 50px;
+  }
+
+  .llcard {
+    width: 22rem;
+    height: 500px
+  }
 }
 </style>
   
